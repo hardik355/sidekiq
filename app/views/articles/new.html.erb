@@ -1,0 +1,16 @@
+<h1>Articles</h1>
+
+
+<%= form_for(@article) do |f|%>
+  <div>
+    <%= f.label:Title %>
+    <%= f.text_field :title%>
+  </div><br>
+
+  <div>
+    <%= f.label:Description%>
+    <%= f.text_area :description%>
+  </div><br>
+
+    <%=f.submit%>
+<%end%>

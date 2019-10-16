@@ -1,0 +1,11 @@
+<h2> Article <%= @article.id%></h2>
+
+<strong>Title: </strong>
+<%= @article.title%><br><br>
+
+<strong>Description: </strong>
+<%= @article.description%><br><br>
+
+
+<%= link_to 'Back', articles_new_path(@article)%>
+
